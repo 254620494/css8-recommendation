@@ -1,0 +1,325 @@
+body{
+	font-family: "微软雅黑";
+	margin: 0;
+	height: 100%;
+	background-color: #fafafa;
+}
+.head{
+	position: relative;
+	width: 100%;
+	height: 38px;
+}
+.head_inside{
+	position: absolute;
+	left: 18%;
+	width: 64%;
+	color: #29b078;
+	line-height: 3em;
+}
+.head_inside img{
+	position: absolute;
+	right: 0;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	height: auto;
+}
+.head_lead{
+	position: relative;
+
+	width: 100%;
+	background-color: #29B078;
+	height: 100px;
+}
+.head_lead_text{
+	float: right;
+	margin-right: 10px;
+}
+.head_lead_text_left{
+	position: absolute;
+	left: 18%;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+}
+.naaa{
+	list-style: none;
+}
+.naaa>li{
+	position: relative;
+	width: 80px;
+	float: left;
+	font-size:1.2em;
+	top: 35px;
+}
+.naaa a{
+	color: white;
+	text-decoration: none;
+	padding: 0px 20px  36px 20px;
+	display: block;
+}
+.naaa > li > a:hover,
+.naaa > li > a:focus {
+  text-decoration:  none;
+  color: antiquewhite;
+  border-bottom: 5px solid white;
+}
+.on{
+	text-decoration:  none;
+  	color: antiquewhite;
+ 	border-bottom: 5px solid white;
+}
+.pic{
+	width: 100%;
+	height: 697px;
+}
+.mid_top{
+	position: absolute;
+	width: 80%;
+	left: 18%;
+	top: 1000px;
+}
+.mid_top_block{
+	position: relative;
+	float: left;
+	margin-right: 150px;
+	width: 200px;
+
+}
+.mid_top_block img{
+	position: absolute;
+	top: -50px;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+}
+.mid_top_block_rig{
+	position: absolute;
+	top: -50px;
+	right: 7%;
+	width: 400px;
+	border-left: 2px dashed gray;
+	padding: 30px;
+}
+.pp{
+	position: relative;
+	top:4px;
+	color: green;
+	font-size: 1.2em;
+}
+.mid_text{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 1150px;
+}
+.mid_mid{
+	position: relative;
+	left: 18%;
+	width: 80%;
+	top: 80px;
+
+}.mid_mid2{
+	position: absolute;
+	left: 18%;
+	width: 80%;
+	top: 280px;
+
+}
+.mid_mid_block{
+	position: relative;
+	width: 325px;
+	float: left;
+	
+	color: gray;
+
+}
+span.tex{
+	position: relative;
+	top: 14px;
+	left: -125px;
+	width: 100px;
+	font-size: 2em;
+	color: #29b078;
+}
+span.textt{
+	position: absolute;
+	top: 15px;
+	left:80px;
+}
+span.texttt{
+	position:absolute;
+	top: 35px;
+	left:80px;
+
+}
+.mid_mid_block img{
+	position: absolute;
+	left: 0;
+}
+img.sow{
+	position:absolute;
+	left: 255px;
+	top: 30px;
+}
+img.sow1{
+	position:absolute;
+	left: 250px;
+	top: 25px;
+}
+.bottomMem_head{
+	position: absolute;
+	top: 1550px;
+	text-align: center;
+	width: 100%;
+}
+.bottomMem{
+	position: absolute;
+	top: 1580px;
+	left: 18%;
+	width: 64%;
+}
+.bottomMem_block{
+	float: left;
+	position:relative;
+	top: 50px;
+	width: 266px;
+	background-color: white;
+	margin-right: 50px;
+	height: 350px;
+	padding: 40px;
+}
+.bottomMem_block img{
+	position: absolute;
+	left:50%;
+	-webkit-transform: translateX(-50%);
+	border-radius: 250px;
+	width: 120px;
+}
+.mem_text1{
+	text-align: center;
+	position: relative;
+	top: 140px;
+	font-size: 1.5em;
+}
+.mem_text2{
+	position: relative;
+	top: 150px;
+	font-size: 1.1em;
+	float: left;
+	margin: 0 auto;
+	color: gray;
+}
+.sponser{
+	position: absolute;
+	top: 2100px;
+	text-align: center;
+	width: 100%;
+	font-size: 1.2em;
+	font-weight: 700;
+}
+.cooraperation{
+	position: absolute;
+	top: 2200px;
+	left: 18%;
+	width: 64%;
+	background-color: white;
+	height: 180px;
+	overflow: hidden;
+}
+.coo_block{
+	position: relative;
+	width: 224px;
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	margin-right: 15px;
+}
+.botttom{
+	position: absolute;
+	top: 2500px;
+	width: 100%;
+	height: 130px;
+	background-color: white;
+}
+.botttom_top{
+	text-align: center;
+	font-size: 1.2em;
+	font-weight: 700;
+	letter-spacing: 1px;
+	width: 100%;
+	line-height: 4em;
+}
+.botttom_mid{
+	position: absolute;
+	left: 18%;
+	height: 50px;
+	width: 64%;
+}
+span.ll{
+	color: gray;
+	font-family: "微软雅黑";
+	font-weight: 700;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+.lastB{
+	position: absolute;
+	top:2630px ;
+	width: 100%;
+	background-color: #26a26f;
+	height: 180px;
+}
+.lastB_inside{
+	width: 64%;
+	left: 18%;
+	position: relative;
+	color: white;
+	font-size: 1.2em;
+}
+
+.gaibianniwo{
+	position: absolute;
+	top: 25px;
+}
+.aboutUs{
+	position: absolute;
+	top:150px;
+}
+.websit{
+	position: absolute;
+	top: 25px;
+	left: 500px;
+}
+.websit_two{
+	position: absolute;
+	top: 87.5px;
+	left: 500px;
+}
+.websit_two_two{
+	position: absolute;
+	top: 87.5px;
+	left: 600px;
+}
+.websit_three{
+	position: absolute;
+	top: 150px;
+	left: 500px;
+}
+.websit_three_two{
+	position: absolute;
+	top: 150px;
+	left: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
