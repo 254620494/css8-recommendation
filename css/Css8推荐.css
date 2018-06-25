@@ -1,25 +1,25 @@
 .shouye{
-	top: 170px;
-	position: absolute;
+	top: 250px;
+	position: relative;
 	width: 60%;
 	left: 18%;
 	font-size: 1.2em;
 	font-weight: 700;
 }
 .fangxiang{
-	position: absolute;
-	top: 210px;
+	position: relative;
+	top: 0px;
 	width: 62%;
 	left: 18%;
 	font-size: 1.2em;
 	font-weight: 700;
-	
 	border-bottom: 1px solid gainsboro;
 	border-top: 1px solid gainsboro;
 	padding-top: 20px;
 }
 .ab{
 	list-style: none;
+	height: auto;
 }
 .ab>li{
 	position: relative;
@@ -39,9 +39,25 @@
 	color: white;
 	text-decoration: none;
 }
+@media only screen and (max-width:1000px ) {
+	.ab li{
+		position: relative;
+		top: -26px;
+		display: inline-block;
+		float: none;
+		line-height: 2em;
+	}
+	.shouye{
+	left: 0;
+}
+	.fangxiang{
+	width:100%;
+	left: 0;
+}
+}
 .blockOne{
 	position: relative;
-	top: 180px;
+	top: 0px;
 	width:100%;
 	height: auto;
 
@@ -58,39 +74,73 @@
 	left: 18%;
 	width: 64%;
 	height: 60px;
-
 	border-bottom: 1px solid gainsboro;
+	margin-top: 0px;
 	font-size: 1.3em;
 	font-weight: 700;
 }
 .blockOne_word span{
 	position: absolute;
+	left: 0;
 	top: 50%;
 	-webkit-transform: translateY(-50%);
 }
 .blockOne_blockTwo{
 	position: relative;
-	top: 30px;
+	margin-top: 30px;
 	left: 18%;
 	width: 64%;
-	height: 1000px;
-
+	height:1000px;
+	margin-bottom: 50px;
 }
 .blockOne_blockTwo_block{
 	position: relative;
-	width: 30%;
+	width: 28%;
 	height: 440px;
 	background-color: white;
 	float: left;
 	margin-right: 40px;
 	margin-bottom: 40px;
+	margin-top: 40px;
 	
+}
+@media only screen and (max-width:1200px ) {
+	.blockOne_blockTwo{
+	position: relative;
+	margin-top: 30px;
+	width: 100%;
+	left: 0;
+	height:1950px;
+	margin-bottom: 50px;
+}
+	.blockOne_blockTwo_block{
+	position: relative;
+	width: 98%;
+	height: 440px;
+	background-color: white;
+	float: left;
+	
+	margin-bottom: 40px;
+	margin-top: 40px;
+	
+}
+	.blockOne_word{
+	position:relative;
+	left: 0;
+	width: 100%;
+	height: 60px;
+	border-bottom: 1px solid gainsboro;
+	margin-top: 0px;
+	top: 40px;
+	font-size: 1.3em;
+	font-weight: 700;
+}
 }
 .block_visi{
 	position: absolute;
-	height: 440px;
-	width:50%;
-	background-image: url(bg.png);
+	height: 50%;
+	width:80%;
+	background-image: url(../../task8-推荐/圆角矩形1拷贝.png);
 	visibility: hidden;	
 	z-index: 2222;
 	transition: width 2s;
@@ -109,13 +159,12 @@
 	visibility: visible;
 	transition: all 2s;
 	width: 100%;
-
+	height: 440px;
 	-webkit-transform: rotate(360deg);
 	
 }
 .blockOne_blockTwo_block img{
-	
-	width: 180px;
+	width: 40%;
 	padding: 10px;
 	float: left;
 }
@@ -128,6 +177,7 @@
 
 }
 .pa{
+	position: relative;
 	padding: 10px;
 	width: 50%;
 }
@@ -135,6 +185,11 @@
 	position:absolute;
 	width: 40px;
 	top: 2px;
+}
+
+.paTwo{
+	position: relative;
+	right: 0;
 }
 .paa{
 	width: 40%;
@@ -156,7 +211,7 @@
 	font-size: 1.3em;
 	padding: 10px;
 	left: 5px;
-border-bottom: 1px solid gainsboro;
+	border-bottom: 1px solid gainsboro;
 
 }
 .lastOne{
@@ -167,12 +222,24 @@ border-bottom: 1px solid gainsboro;
 	padding: 10px ;
 	left: 5px;
 	color: gray;
-	
+	background-color: white;
 }
 .lastT{
-	position: absolute;
-	top:3430px ;
+	position: relative;
+	margin-top: 50px ;
 	width: 100%;
 	background-color: #26a26f;
-	height: 200px;
+	height: auto;
+}
+@media only screen and (min-width:1200px) {
+.lastB{
+	height:160px;
+}
+.col-sm-5 a{
+	color: white;
+	position: relative;
+	text-decoration: none;
+	margin-right: 15px;
+
+}
 }
